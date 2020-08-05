@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # require 'pry'
+=======
+#require 'pry'
+>>>>>>> 466d58cec5dac4b7d7058f52d4a3be1efdfbd5b1
 
 attendees = ["Edsger", "Aeda", "Charles", "Alan", "Grace", "Linus", "Matz"]
 
@@ -18,13 +22,17 @@ def batch_badge_creator(attendees)
   end
 end
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 466d58cec5dac4b7d7058f52d4a3be1efdfbd5b1
 def assign_rooms(attendees)
   attendees.each_with_index.map do |attendee, i|
     "Hello, #{attendee}! You'll be assigned to room #{i+1}!"
   end
 end
 
+<<<<<<< HEAD
 
 def printer(attendees)
   batch_badge_creator(attendees).each do |badges|
@@ -46,6 +54,13 @@ end
 
 # binding.pry
 
+=======
+def printer(attendees)
+  print batch_badge_creator(attendees)
+  print assign_rooms(attendees)
+end
+
+>>>>>>> 466d58cec5dac4b7d7058f52d4a3be1efdfbd5b1
 # def printer(attendees)
 #  def batch_badge_creator(attendees)
 #    attendees.map do |badges|
